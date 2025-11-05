@@ -1,4 +1,4 @@
-# Distributed Hotel Booking System
+# Hotel Management Service
 
 Распределённая бэкенд-система, поддерживающая функции управления базой отелей и бронирования комнат.
 
