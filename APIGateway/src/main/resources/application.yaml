@@ -13,7 +13,7 @@ spring:
         - id: hotel-service
           uri: lb://hotel-service
           predicates:
-            - Path=/hotels/**
+            - Path=/api/hotels/**, /api/rooms/**
           filters:
             - RemoveRequestHeader=Cookie
         - id: booking-service
