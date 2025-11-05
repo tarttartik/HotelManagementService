@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
+@RequestMapping("/admin/users")
 public class UserController {
     private final UserRepository userRepository;
 
@@ -41,3 +43,4 @@ public class UserController {
         return ResponseEntity.noContent().build();
     }
 }
+
